@@ -60,7 +60,7 @@ The entire project is open-source:
 ## Wiring
 
 <p align="center">
-  <img src="docs/wiring/openDrop-complete-schematic.jpg" width="600">
+  <img src="docs/wiring/openDrop-complete-schematic.jpg" width="650">
 </p>
 
 ---
@@ -89,7 +89,7 @@ You can:
 - Put the controller back to sleep
 
 <p align="center">
-  <img src="docs/web/webscreen.jpeg" width="250">
+  <img src="docs/web/webscreen.jpeg" width="320">
 </p>
 
 ---
