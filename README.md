@@ -68,11 +68,11 @@ The entire project is open-source:
 ## Prototype Photos
 
 <p align="center">
-  <img src="docs/photos/device-inside.jpg" width="250">
+  <img src="docs/photos/device-inside.jpg" width="600">
 </p>
 <p align="center">
-  <img src="docs/photos/device-front.jpg" width="250">
-  <img src="docs/photos/device-side.jpg" width="250">
+  <img src="docs/photos/device-front.jpg" width="300">
+  <img src="docs/photos/device-side.jpg" width="300">
 </p>
 
 ---
@@ -89,7 +89,7 @@ You can:
 - Put the controller back to sleep
 
 <p align="center">
-  <img src="images/web/webscreen.png" width="700">
+  <img src="docs/web/webscreen.jpeg" width="700">
 </p>
 
 ---
