@@ -1,0 +1,51 @@
+# OpenDrop Arduino IDE dependencies
+
+This file lists the Arduino IDE environment and library versions tested with OpenDrop.
+
+Project:
+OpenDrop - Low-power wireless irrigation controller
+
+Author:
+Jean-Sébastien Niel
+
+GitHub:
+https://github.com/jsniel
+
+---
+
+## Tested environment
+
+Arduino IDE:
+Tested with Arduino IDE 2.x
+
+ESP32 Arduino Core by Espressif Systems:
+Tested with version: 3.3.5
+
+RTClib by Adafruit:
+Tested with version: 2.1.4
+
+Adafruit BusIO:
+Tested with version: 1.17.4
+
+---
+
+## Notes
+
+The following headers used by the firmware are provided by the ESP32 Arduino Core:
+
+- WiFi.h
+- WebServer.h
+- DNSServer.h
+- Wire.h
+- EEPROM.h
+- esp_sleep.h
+- driver/gpio.h
+- time.h
+
+The only external Arduino library directly included by the firmware is:
+
+- RTClib.h
+
+Adafruit BusIO is required as a dependency of RTClib.
+
+
