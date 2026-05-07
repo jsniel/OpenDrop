@@ -8,11 +8,11 @@ Open-source autonomous irrigation controller based on an ESP32-C3 Mini.
 
 ## Description
 
-OpenDrop is a battery-powered irrigation controller designed for small gardens, planters and DIY watering systems.
+OpenDrop is a low-power irrigation controller designed for small-scale market gardening and drip irrigation systems.
 
-The project uses an **ESP32-C3 Mini** with deep sleep for low power consumption and a **DS3231 RTC** for reliable scheduling without internet or cloud dependency.
+Originally created to replace manual irrigation valves, it automates watering schedules and reduces repetitive daily work.
 
-The controller drives a latching irrigation valve through relay pulses and exposes a local Wi‑Fi web interface for configuration.
+Designed for remote plots without access to mains electricity, OpenDrop runs on battery power using deep sleep and pulse-operated latching valves.
 
 The entire project is open-source:
 
