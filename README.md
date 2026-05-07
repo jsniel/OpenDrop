@@ -49,7 +49,7 @@ The entire project is open-source:
 - MT3608 boost converter
 - 18650 Li-ion battery
 - AZ Delivery Battery Expansion Shield 18650
-- DC irrigation valve
+- Pulse-operated latching solenoid valve (+5V / -5V polarity reversal)
 - 2 push buttons
 - LED + resistor
 - 1N4007 diode
