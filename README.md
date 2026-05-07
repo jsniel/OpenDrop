@@ -6,7 +6,7 @@ Open-source autonomous irrigation controller based on an ESP32-C3 Mini.
 
 ---
 
-## 📌 Description
+## Description
 
 OpenDrop is a battery-powered irrigation controller designed for small gardens, planters and DIY watering systems.
 
@@ -24,40 +24,22 @@ The entire project is open-source:
 
 ---
 
-## ⚠️ Disclaimer
+##  Features
 
-This project is an experimental DIY open hardware prototype.
-
-OpenDrop switches electrical loads and may be used near water.
-
-Always:
-
-- verify wiring;
-- protect electronics from humidity;
-- use waterproof connectors;
-- verify valve voltage compatibility;
-- use appropriate battery protection.
-
-This project is provided without warranty.
+- RTC-based irrigation scheduling
+- Deep sleep low-power operation
+- Local Wi‑Fi configuration portal
+- Battery-powered operation
+- Relay-controlled irrigation valve
+- Configurable watering duration
+- Configurable watering cycles
+- EEPROM configuration storage
+- Fully hackable firmware
+- No cloud required
 
 ---
 
-## 🧩 Features
-
-- ⏱️ RTC-based irrigation scheduling
-- 🌙 Deep sleep low-power operation
-- 📶 Local Wi‑Fi configuration portal
-- 🔋 Battery-powered operation
-- 💧 Relay-controlled irrigation valve
-- ⚙️ Configurable watering duration
-- 📅 Configurable watering cycles
-- 💾 EEPROM configuration storage
-- 🔧 Fully hackable firmware
-- ☁️ No cloud required
-
----
-
-## 🧰 Hardware
+## Hardware
 
 ### Required
 
@@ -66,7 +48,7 @@ This project is provided without warranty.
 - 2-channel relay module
 - MT3608 boost converter
 - 18650 Li-ion battery
-- 18650 battery holder / charger board
+- AZ Delivery Battery Expansion Shield 18650
 - DC irrigation valve
 - 2 push buttons
 - LED + resistor
@@ -75,7 +57,7 @@ This project is provided without warranty.
 
 ---
 
-## 🧪 Breadboard / Wiring
+## Wiring
 
 <p align="center">
   <img src="docs/wiring/openDrop-complete-schematic.jpg" width="700">
@@ -83,17 +65,19 @@ This project is provided without warranty.
 
 ---
 
-## 📸 Prototype Photos
+## Prototype Photos
 
+<p align="center">
+  <img src="docs/photos/device-inside.jpg" width="250">
+</p>
 <p align="center">
   <img src="docs/photos/device-front.jpg" width="250">
   <img src="docs/photos/device-side.jpg" width="250">
-  <img src="docs/photos/device-inside.jpg" width="250">
 </p>
 
 ---
 
-## 🖥️ Web Interface
+## Web Interface
 
 You can:
 
@@ -110,7 +94,7 @@ You can:
 
 ---
 
-## 🔘 Buttons and LED
+## Buttons and LED
 
 ### Wi‑Fi Button
 
@@ -148,17 +132,17 @@ The state is saved in EEPROM.
 
 ---
 
-## 🚀 Firmware
+## Firmware
 
 Location:
 
 ```txt
-firmware/OpenDrop/EssaisDeepSleepV2.ino
+firmware/OpenDrop/OpenDropFW/OpenDropFW.ino
 ```
 
 ---
 
-## 🛠️ Arduino IDE Setup (ESP32‑C3)
+## Arduino IDE Setup (ESP32‑C3)
 
 ### 1. Add ESP32 boards
 
@@ -213,7 +197,7 @@ Install from Arduino Library Manager:
 
 ---
 
-## ⚙️ Usage
+## Usage
 
 ### First boot
 
@@ -238,7 +222,7 @@ http://192.168.4.1
 
 ---
 
-## ⚠️ Known Issues
+## Known Issues
 
 - No battery level monitoring
 - Prototype enclosure is not fully waterproof
@@ -247,26 +231,19 @@ http://192.168.4.1
 
 ---
 
-## 🧾 BOM
-
-Main components:
+## Main components:
 
 - ESP32-C3 Mini
 - DS3231 RTC module
 - 2-channel relay module
 - MT3608 boost converter
-- 18650 battery system
+- AZ Delivery Battery Expansion Shield 18650
 - DC irrigation valve
 
-Complete BOM:
-
-```txt
-hardware/BOM.md
-```
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```txt
 OpenDrop/
@@ -281,7 +258,7 @@ OpenDrop/
 
 ---
 
-## 👤 Author
+## Author
 
 **Jean-Sébastien Niel**
 
@@ -290,7 +267,7 @@ https://github.com/jsniel
 
 ---
 
-## 📜 License
+## License
 
 OpenDrop uses separate licenses for firmware and hardware.
 
@@ -312,6 +289,24 @@ CERN-OHL-S-2.0
 
 ---
 
-## 🤝 Contributing
+## ⚠️ Disclaimer
+
+This project is an experimental DIY open hardware prototype.
+
+OpenDrop switches electrical loads and may be used near water.
+
+Always:
+
+- verify wiring;
+- protect electronics from humidity;
+- use waterproof connectors;
+- verify valve voltage compatibility;
+- use appropriate battery protection.
+
+This project is provided without warranty.
+
+---
+
+## Contributing
 
 Pull requests and hardware improvements are welcome.
