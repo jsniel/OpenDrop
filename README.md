@@ -63,8 +63,8 @@ The entire project is open-source:
   <img src="docs/wiring/openDrop-complete-schematic.jpg" width="650">
 </p>
 <p align="center">
-  <img src="docs/pcb/pcb_front.png" width="250">
-  <img src="docs/pcb/pcb_back.png" width="250">
+  <img src="docs/pcb/pcb_front.png" width="320">
+  <img src="docs/pcb/pcb_back.png" width="320">
 </p>
 
 
